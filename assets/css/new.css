@@ -1,0 +1,190 @@
+.tyre-name {
+    font-size: 28px;
+}
+
+.slider_conttrol {
+    max-width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.next_button,
+.prev_button {
+    border: none;
+    background: none;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../media/right-chevron.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../media/left-chevron.png);
+}
+
+.menu_wrap {
+    position: relative;
+}
+
+
+/*.navbar-collapse{
+	background-color: #fff;
+	position: absolute;
+	z-index: 99999;
+    width: 150px;
+    top: 70%;
+    right: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}*/
+
+header .navbar .nav-link {
+    color: #000;
+    font-weight: 700;
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 8px 10px;
+    text-align: right;
+}
+
+
+/*header .navbar .nav-link:hover{
+	color: #fff;
+	background-color: gray;
+}*/
+
+
+/*header .navbar .nav-item:not(:last-child){
+    border-bottom: 1px solid gray;
+}*/
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    width: 1.8em;
+    height: 1.8em;
+}
+
+#wrapper ul li:nth-of-type(1),
+#wrapper ul li:nth-of-type(2),
+#wrapper ul li:nth-of-type(3) {
+    animation-delay: inherit !important;
+}
+
+.contact_button .fas {
+    color: #fff !important;
+}
+
+.footer_links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_links li {
+    margin: 5px 0;
+}
+
+.footer_links li .footer_link {
+    font-weight: 700;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.process .process-icon i {
+    /*border-bottom: 3px solid #000;
+    border-left: 3px solid #000;
+    padding: 0 0 5px 10px;*/
+    margin-bottom: 15px;
+}
+
+.footer_content {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .why .why-info i {
+        font-size: 30px;
+    }
+    .tyre-name {
+        font-size: 20px;
+    }
+    .p label {
+        margin-left: 0 !important;
+    }
+    .our-brand {
+        display: none;
+    }
+}
+
+.section-padding {
+    padding: 30px 0;
+}
+
+.brand-carousel {
+    margin: 0;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.owl-dot {
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #444 !important;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.owl-dot.active {
+    background-color: black !important;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+ ::placeholder {
+    color: white !important;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    /* border-color: #ffffff; */
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+}
+
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 600;
+}
